@@ -4,6 +4,7 @@ import lombok.*;
 
 import java.math.BigDecimal;
 
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -17,4 +18,5 @@ public class Product {
     private BigDecimal price;
     private String category;
     private boolean isActive;
-   }
+    private int stockQuantity ;
+}
